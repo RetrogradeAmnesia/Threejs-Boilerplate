@@ -99,5 +99,6 @@ var loadFBX = function (model) {
     animate();
 }
 
-// loadFBX('./models/Idle.fbx')
-loadFBX('./models/UppercutJab.fbx')
+// loadFBX('./models/Animations/Idle.fbx')
+
+loadFBX('./models/Animations/UppercutJab.fbx')

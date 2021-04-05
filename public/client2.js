@@ -193,5 +193,5 @@ var loadMRI = function (mriZIP) {
 };
 
 
-loadMRI('/models/head256x256x109.zip')
+loadMRI('/models/Sequencing/head256x256x109.zip')
 
