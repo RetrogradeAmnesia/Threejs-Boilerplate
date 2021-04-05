@@ -37,7 +37,7 @@ var loadFBX = function (model) {
     // scene.add( new THREE.CameraHelper( dirLight.shadow.camera ) );
     
     // ground
-    const mesh = new THREE.Mesh( new THREE.PlaneGeometry( 2000, 2000 ), new THREE.MeshPhongMaterial( { color: 0x3E3E3E, depthWrite: false } ) );
+    const mesh = new THREE.Mesh( new THREE.PlaneGeometry( 2000, 2000 ), new THREE.MeshPhongMaterial( { color: 0x999999, depthWrite: false } ) );
     mesh.rotation.x = - Math.PI / 2;
     mesh.receiveShadow = true;
     scene.add( mesh );
